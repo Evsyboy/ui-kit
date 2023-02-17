@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-ui-kit',
   template: `
       eto rabotaet
+      <button>dsds</button>
   `,
   styles: [
   ]
