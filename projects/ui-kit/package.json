@@ -5,6 +5,11 @@
     "@angular/common": "^15.1.0",
     "@angular/core": "^15.1.0"
   },
+  "author": "evsyboy",
+  "repository": {
+    "type": "git",
+    "url": "git + https://github.com/Evsyboy/ui-kit.git"
+  },
   "dependencies": {
     "tslib": "^2.3.0"
   },
