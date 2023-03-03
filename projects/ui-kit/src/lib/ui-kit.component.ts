@@ -2,13 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-ui-kit',
-  template: `
-      eto rabotaet
-      <button>dsds</button>
-  `,
-  styles: [
-  ]
+  templateUrl: 'ui-kit.component.html',
 })
-export class UiKitComponent {
-
-}
+export class UiKitComponent {}
