@@ -1,2 +1,2 @@
-export * from './ui-input.component';
 export * from './ui-input.module';
+export * from './ui-input.component';

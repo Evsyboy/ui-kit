@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { UiKitComponent } from './ui-kit.component';
+import { UIKitSummaryComponent } from './ui-kit-summary.component';
 
 const routers: Routes = [
   {
     path: '',
-    component: UiKitComponent,
+    component: UIKitSummaryComponent,
   },
 ];
 
@@ -15,4 +14,4 @@ const routers: Routes = [
   imports: [RouterModule.forChild(routers)],
   exports: [RouterModule],
 })
-export class UiKitRoutingModule {}
+export class UIKitRoutingModule {}

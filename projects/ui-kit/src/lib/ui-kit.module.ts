@@ -1,14 +1,12 @@
 import { NgModule } from '@angular/core';
-import { UiKitComponent } from './ui-kit.component';
-import { UiKitRoutingModule } from './ui-kit-routing.module';
-import { UiInputComponent } from './ui-input/ui-input.component';
-import { UiInputModule } from './ui-input/ui-input.module';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { UIKitSummaryComponent } from './ui-kit-summary.component';
+import { UIKitRoutingModule } from './ui-kit-routing.module';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { UIInputModule } from './ui-input/ui-input.module';
 
 @NgModule({
-  declarations: [UiKitComponent],
-  imports: [UiInputModule, UiKitRoutingModule],
-  exports: [UiInputModule],
+  declarations: [UIKitSummaryComponent],
+  imports: [UIKitRoutingModule, UIInputModule, ReactiveFormsModule],
 })
-export class UiKitModule {}
+export class UIKitModule {}
